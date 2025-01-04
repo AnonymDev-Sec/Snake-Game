@@ -1,0 +1,10 @@
+EXECUTABLE= prog
+SOURCES= *.c
+HEADERS= *.h
+
+$(EXECUTABLE): $(SOURCES) $(HEADERS)
+	@gcc $(SOURCES) -o $(EXECUTABLE) -lSDL2 -lSDL2_gfx -lSDL2_ttf
+run: $(EXECUTABLE)
+	@./$(EXECUTABLE)
+clean:
+	@rm -f $(EXECUTABLE)
