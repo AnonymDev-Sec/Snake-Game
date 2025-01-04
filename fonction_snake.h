@@ -1,5 +1,5 @@
-#if !defined(FONCTION_KAMDEM)
-#define FONCTION_KAMDEM
+#if !defined(FONCTION_SNAKE)
+#define FONCTION_SNAKE
 
 
 #define LARGEUR_FENETRE 900
@@ -47,4 +47,4 @@ int collision(Serpent *,int tailleSerpent);
 //void niveauSup(); À vénir
 
 
-#endif // FONCTION_KAMDEM
+#endif // FONCTION_SNAKE
